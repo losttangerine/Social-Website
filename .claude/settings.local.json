@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir=no --import-alias=\"@/*\" --yes)",
+      "Read(//usr/local/bin/**)",
+      "Bash(echo \"PATH: $PATH\")",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/lostt/AppData/Roaming/**)",
+      "Read(//c/Users/lostt/**)",
+      "Bash(powershell -ExecutionPolicy Bypass -Command \"Copy-Item -Path ''C:\\\\social-website\\\\*'' -Destination ''C:\\\\Users\\\\lostt\\\\OneDrive\\\\Desktop\\\\Social Website\\\\'' -Recurse -Force\")",
+      "Bash(cmd //c \"npm install framer-motion react-icons yet-another-react-lightbox 2>&1\")",
+      "Bash(powershell -ExecutionPolicy Bypass -Command \"Remove-Item -Path ''C:\\\\social-website'' -Recurse -Force\")",
+      "Bash(cmd //c \"npm list tailwindcss 2>&1\")",
+      "Bash(cmd //c \"npm run build 2>&1\")",
+      "Bash(cmd //c \"npm run dev\")"
+    ]
+  }
+}
