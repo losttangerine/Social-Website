@@ -36,7 +36,7 @@ export default function ArtworkGallery({ artworks }: ArtworkGalleryProps) {
                 alt={artwork.title}
                 fill
                 sizes="(max-width: 768px) 50vw, 33vw"
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                className="object-contain transition-opacity duration-300"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                 <span className="text-sm font-medium text-white">
