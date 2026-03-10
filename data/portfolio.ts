@@ -5,6 +5,8 @@ export interface Artwork {
   src: string;
   width: number;
   height: number;
+  objectPosition?: string;
+  bgColor?: string;
 }
 
 export interface AnimationItem {
@@ -23,6 +25,7 @@ export const artworks: Artwork[] = [
     src: "/artworks/FSDJp-qWUAAHdtr.jpg",
     width: 1200,
     height: 900,
+    objectPosition: "center top",
   },
   {
     id: "art-02",
@@ -30,6 +33,7 @@ export const artworks: Artwork[] = [
     src: "/artworks/FdXw0WCWYAcagT8.jpg",
     width: 1200,
     height: 900,
+    objectPosition: "center top",
   },
   {
     id: "art-03",
@@ -37,6 +41,7 @@ export const artworks: Artwork[] = [
     src: "/artworks/FuH7r4EXoAEAY4l.jpg",
     width: 1200,
     height: 900,
+    objectPosition: "center top",
   },
   {
     id: "art-04",
@@ -44,6 +49,7 @@ export const artworks: Artwork[] = [
     src: "/artworks/G2jUAJXXMAAuhLE.jpg",
     width: 1200,
     height: 900,
+    objectPosition: "center top",
   },
   {
     id: "art-05",
@@ -51,6 +57,7 @@ export const artworks: Artwork[] = [
     src: "/artworks/G2yyNF7WQAAxCus.jpg",
     width: 1200,
     height: 900,
+    objectPosition: "center top",
   },
   {
     id: "art-06",
@@ -58,6 +65,7 @@ export const artworks: Artwork[] = [
     src: "/artworks/GELlsHTWkAAso-N.jpg",
     width: 1200,
     height: 900,
+    objectPosition: "center top",
   },
 ];
 
@@ -82,6 +90,7 @@ export const emotes: Artwork[] = [
     src: "/emotes/G1_Psd7XEAA_LMl.png",
     width: 512,
     height: 512,
+    bgColor: "#ffffff",
   },
   {
     id: "emote-04",

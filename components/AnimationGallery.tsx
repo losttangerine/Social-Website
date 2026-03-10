@@ -99,15 +99,7 @@ export default function AnimationGallery({ animations }: AnimationGalleryProps) 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
       {animations.map((item, i) => (
         <ScrollReveal key={item.id} delay={i * 0.08}>
-          <div className="flex flex-col gap-3">
-            <AnimationCard item={item} />
-            <div>
-              <p className="text-white font-medium text-sm">{item.title}</p>
-              {item.description && (
-                <p className="text-white/40 text-xs mt-0.5">{item.description}</p>
-              )}
-            </div>
-          </div>
+          <AnimationCard item={item} />
         </ScrollReveal>
       ))}
     </div>

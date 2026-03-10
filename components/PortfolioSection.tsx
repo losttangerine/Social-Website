@@ -35,7 +35,7 @@ export default function PortfolioSection() {
               <div className="flex-1 h-px bg-surface-border" />
             </div>
           </ScrollReveal>
-          <ArtworkGallery artworks={emotes} />
+          <ArtworkGallery artworks={emotes} fit="contain" aspect="square" />
         </div>
 
         {/* Animations */}
