@@ -2,8 +2,6 @@
 
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import Captions from "yet-another-react-lightbox/plugins/captions";
-import "yet-another-react-lightbox/plugins/captions.css";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import { Artwork } from "@/data/portfolio";
@@ -25,8 +23,6 @@ export default function ArtworkModal({
     src: a.src,
     width: a.width,
     height: a.height,
-    title: a.title,
-    description: a.description,
   }));
 
   return (
@@ -35,7 +31,7 @@ export default function ArtworkModal({
       close={onClose}
       index={index}
       slides={slides}
-      plugins={[Captions, Thumbnails]}
+      plugins={[Thumbnails]}
     />
   );
 }
