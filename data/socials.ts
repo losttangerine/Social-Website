@@ -40,12 +40,4 @@ export const socials: SocialLink[] = [
     brandColor: "#1DA1F2",
     iconName: "FaXTwitter",
   },
-  {
-    id: "github",
-    label: "GitHub",
-    url: "https://github.com/losttangerine",
-    username: "@losttangerine",
-    brandColor: "#ffffff",
-    iconName: "FaGithub",
-  },
 ];

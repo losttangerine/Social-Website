@@ -6,7 +6,6 @@ import {
   FaYoutube,
   FaTiktok,
   FaXTwitter,
-  FaGithub,
 } from "react-icons/fa6";
 import { IconType } from "react-icons";
 import { socials } from "@/data/socials";
@@ -17,7 +16,6 @@ const ICON_MAP: Record<string, IconType> = {
   FaYoutube,
   FaTiktok,
   FaXTwitter,
-  FaGithub,
 };
 
 export default function SocialLinks() {
