@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const navLinks = [
   { label: "Socials", href: "#social" },
   { label: "Portfolio", href: "#portfolio" },
+  { label: "Create Repo", href: "/create-repo" },
 ];
 
 export default function Navbar() {
