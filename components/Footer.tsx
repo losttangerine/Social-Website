@@ -21,12 +21,12 @@ export default function Footer() {
             >
               Commissions
             </Link>
-            <a
-              href="/#contact"
+            <Link
+              href="/contact"
               className="text-white underline font-body text-sm"
             >
               Studio Invite
-            </a>
+            </Link>
           </div>
           <p className="text-stone-50/60 text-xs font-body">
             © {new Date().getFullYear()} Lost Tangerine. All rights reserved.

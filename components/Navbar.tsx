@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const navLinks = [
   { label: "Portfolio", href: "/#portfolio" },
   { label: "Commissions", href: "/commissions" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -43,10 +43,7 @@ export default function Navbar() {
         {/* Desktop nav */}
         <div className="hidden sm:flex items-center gap-8">
           {navLinks.map((link) => {
-            const isActive =
-              link.href === "/commissions"
-                ? pathname === "/commissions"
-                : false;
+            const isActive = pathname === link.href;
             return (
               <motion.div key={link.href} whileHover={{ y: -1 }}>
                 <Link

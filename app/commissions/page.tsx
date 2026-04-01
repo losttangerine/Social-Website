@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import CommissionForm from "@/components/CommissionForm";
 
 export const metadata = {
   title: "Commissions | Lost Tangerine",
@@ -174,36 +173,6 @@ export default function CommissionsPage() {
           </div>
         </section>
 
-        {/* Commission Request Form */}
-        <section
-          id="request-form"
-          className="bg-primary-container rounded-3xl p-8 md:p-16 relative overflow-hidden"
-        >
-          {/* Decorative blur */}
-          <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none" aria-hidden="true" />
-
-          <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            <div>
-              <h2 className="text-5xl font-headline font-black mb-6 leading-none text-on-primary-container">
-                Ready to<br />Collaborate?
-              </h2>
-              <p className="text-on-primary-container/90 font-body mb-8 text-lg">
-                Tell me about your project. I respond to all serious inquiries
-                within 48 hours.
-              </p>
-              <div className="flex flex-col gap-3 text-on-primary-container">
-                <p className="font-body text-sm font-bold">
-                  Twitter: @losttangerine
-                </p>
-                <p className="font-body text-sm">
-                  Payment via Paypal, Venmo, or Cash App
-                </p>
-              </div>
-            </div>
-
-            <CommissionForm />
-          </div>
-        </section>
 
       </main>
       <Footer />
