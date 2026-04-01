@@ -1,41 +1,61 @@
 @import "tailwindcss";
 
 @theme {
-  --color-surface: #0a0a0a;
-  --color-surface-raised: #141414;
-  --color-surface-border: #2a2a2a;
-  --color-accent: #fb923c;
-  --color-accent-hover: #fdba74;
-  --font-sans: var(--font-inter), system-ui, sans-serif;
+  /* ── Fonts ─────────────────────────────────────── */
+  --font-sans: var(--font-manrope), system-ui, sans-serif;
+  --font-headline: var(--font-plus-jakarta-sans), system-ui, sans-serif;
+  --font-body: var(--font-manrope), system-ui, sans-serif;
+
+  /* ── New warm colour system ─────────────────────── */
+  --color-primary:                  #964300;
+  --color-primary-fixed:            #f9873e;
+  --color-primary-container:        #f9873e;
+  --color-primary-dim:              #843a00;
+  --color-on-primary:               #fff0e9;
+  --color-on-primary-container:     #451b00;
+
+  --color-background:               #f7f6f3;
+  --color-surface:                  #f7f6f3;
+  --color-surface-bright:           #f7f6f3;
+  --color-surface-dim:              #d4d5d1;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low:    #f1f1ee;
+  --color-surface-container:        #e8e8e5;
+  --color-surface-container-high:   #e3e3df;
+  --color-surface-container-highest:#ddddd9;
+  --color-on-surface:               #2e2f2d;
+  --color-on-surface-variant:       #5b5c5a;
+  --color-outline:                  #767775;
+  --color-outline-variant:          #adadab;
+
+  /* ── Legacy aliases (ArtworkGallery / AnimationGallery keep working) ── */
+  --color-surface-raised:           #e8e8e5;
+  --color-surface-border:           #adadab;
+  --color-accent:                   #964300;
+  --color-accent-hover:             #e97b32;
+
+  /* ── Animation ─────────────────────────────────── */
   --animate-fade-up: fadeUp 0.6s ease-out both;
 }
 
 @keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
-  }
+  html { scroll-behavior: smooth; }
 
   body {
-    background-color: #0a0a0a;
-    color: #ffffff;
+    background-color: #f7f6f3;
+    color: #2e2f2d;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
   ::selection {
-    background-color: rgba(251, 146, 60, 0.25);
-    color: #ffffff;
+    background-color: rgba(150, 67, 0, 0.15);
+    color: #2e2f2d;
   }
 }
 
@@ -61,4 +81,9 @@
     padding-left: 6rem;
     padding-right: 6rem;
   }
+}
+
+@utility glass-nav {
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
 }
