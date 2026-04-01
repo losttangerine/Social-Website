@@ -1,0 +1,46 @@
+- generic [ref=e4]:
+  - banner
+  - generic [ref=e127]:
+    - list [ref=e128]:
+      - listitem [ref=e129]:
+        - button "Home" [ref=e130] [cursor=pointer]
+      - listitem [ref=e131]:
+        - button "Commission" [ref=e132] [cursor=pointer]
+      - listitem [ref=e133]:
+        - button "TOS" [ref=e134] [cursor=pointer]
+    - paragraph [ref=e135]:
+      - strong [ref=e136]: Per Character illustration
+    - list [ref=e139]:
+      - listitem [ref=e140]:
+        - img "Headshot" [ref=e143]
+        - paragraph [ref=e145]: Headshot
+      - listitem [ref=e146]:
+        - img "Half Body" [ref=e149]
+        - paragraph [ref=e151]: Half Body
+      - listitem [ref=e152]:
+        - img "Full Body" [ref=e155]
+        - paragraph [ref=e157]: Full Body
+    - list [ref=e159]:
+      - listitem [ref=e160]:
+        - paragraph [ref=e161]:
+          - strong [ref=e162]: "Sketch: $5-10"
+      - listitem [ref=e163]:
+        - paragraph [ref=e164]:
+          - strong [ref=e165]: "Headshot/Chibi: $40"
+      - listitem [ref=e166]:
+        - paragraph [ref=e167]:
+          - strong [ref=e168]: "Half Body: $55"
+      - listitem [ref=e169]:
+        - paragraph [ref=e170]:
+          - strong [ref=e171]: "Full Body: $85"
+      - listitem [ref=e172]:
+        - paragraph [ref=e173]:
+          - strong [ref=e174]: "Simple/Blurred Background: $5"
+    - separator [ref=e175]
+    - list [ref=e176]:
+      - listitem [ref=e177]:
+        - button "Twitter" [ref=e178] [cursor=pointer]:
+          - img "Twitter"
+      - listitem [ref=e179]:
+        - button "Twitch" [ref=e180] [cursor=pointer]:
+          - img "Twitch"

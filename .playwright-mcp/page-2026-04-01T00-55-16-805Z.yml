@@ -1,0 +1,74 @@
+- generic [ref=e4]:
+  - banner
+  - generic [ref=e181]:
+    - separator [ref=e182]
+    - list [ref=e183]:
+      - listitem [ref=e184]:
+        - button "Home" [ref=e185] [cursor=pointer]
+      - listitem [ref=e186]:
+        - button "Commission" [ref=e187] [cursor=pointer]
+    - heading "Term of Service" [level=2] [ref=e188]:
+      - strong [ref=e189]: Term of Service
+    - list [ref=e191]:
+      - listitem [ref=e192]:
+        - paragraph [ref=e193]: By commissioning me, you agree to these following terms.
+      - listitem [ref=e194]:
+        - paragraph [ref=e195]:
+          - text: I will sometimes be
+          - strong [ref=e196]: streaming/sharing
+          - text: the drawing process. It won't be kept
+          - strong [ref=e197]: private
+          - text: unless stated so.
+      - listitem [ref=e198]:
+        - paragraph [ref=e199]:
+          - text: Payment can be upfront or after confirmation of the sketch/lineart.
+          - strong [ref=e200]: Paypal, Venmo, & Cash App
+      - listitem [ref=e201]:
+        - paragraph [ref=e202]:
+          - strong [ref=e203]: No Refunds.
+      - listitem [ref=e204]:
+        - paragraph [ref=e205]:
+          - text: Please
+          - strong [ref=e206]: provide credit
+          - text: whenever you decide to post or share the art.
+      - listitem [ref=e207]:
+        - paragraph [ref=e208]: No NSFW (yet?). Slightly lewd is fine (ex. hand holding.)
+      - listitem [ref=e209]:
+        - paragraph [ref=e210]: If you have an emote that is already drawn and wanted it to be animated, just lmk. We can decide the pricing on complexity etc.
+      - listitem [ref=e211]:
+        - paragraph [ref=e212]:
+          - strong [ref=e213]: Do not claim my work as your own.
+      - listitem [ref=e214]:
+        - paragraph [ref=e215]: I can decline any commissions that I don't want to do.
+      - listitem [ref=e216]:
+        - paragraph [ref=e217]:
+          - text: I will either send the PNG/GIF files to your
+          - strong [ref=e218]: Discord
+          - text: or
+          - strong [ref=e219]: Email.
+          - text: Send those in advance, to make things easier.
+      - listitem [ref=e220]:
+        - paragraph [ref=e221]: Commissions will take about 3-7 days depending on how complex the commission is or how busy I am during that week. (work, school, etc.)
+      - listitem [ref=e222]:
+        - paragraph [ref=e223]:
+          - strong [ref=e224]: Major edits
+          - text: or
+          - strong [ref=e225]: revisions
+          - text: are limited to up to
+          - strong [ref=e226]: "2"
+          - text: times.
+          - strong [ref=e227]: Extra fees may be required.
+      - listitem [ref=e228]:
+        - paragraph [ref=e229]:
+          - text: If you still have questions that aren't on this TOS, just message me on
+          - strong [ref=e230]: Twitter
+      - listitem [ref=e231]:
+        - paragraph [ref=e232]: Twitter handle @losttangerine
+    - separator [ref=e233]
+    - list [ref=e234]:
+      - listitem [ref=e235]:
+        - button "Twitter" [ref=e236] [cursor=pointer]:
+          - img "Twitter"
+      - listitem [ref=e237]:
+        - button "Twitch" [ref=e238] [cursor=pointer]:
+          - img "Twitch"

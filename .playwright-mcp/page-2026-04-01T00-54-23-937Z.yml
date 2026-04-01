@@ -1,0 +1,24 @@
+- generic [ref=e4]:
+  - banner
+  - generic [ref=e5]:
+    - separator [ref=e6]
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - button "Commission" [ref=e9] [cursor=pointer]
+      - listitem [ref=e10]:
+        - button "TOS" [ref=e11] [cursor=pointer]
+    - heading "Fruit Basket" [level=2] [ref=e12]:
+      - strong [ref=e13]: Fruit Basket
+    - separator [ref=e16]
+    - paragraph [ref=e17]:
+      - strong [ref=e18]: Status
+      - text: ": Open"
+    - separator [ref=e19]
+    - list [ref=e20]:
+      - listitem [ref=e21]:
+        - button "Twitch" [ref=e22] [cursor=pointer]:
+          - img "Twitch"
+      - listitem [ref=e23]:
+        - button "Twitter" [ref=e24] [cursor=pointer]:
+          - img "Twitter"
+    - separator [ref=e25]

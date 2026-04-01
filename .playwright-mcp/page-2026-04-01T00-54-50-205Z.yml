@@ -1,0 +1,64 @@
+- generic [ref=e4]:
+  - banner
+  - generic [ref=e47]:
+    - list [ref=e48]:
+      - listitem [ref=e49]:
+        - button "Home" [ref=e50] [cursor=pointer]
+      - listitem [ref=e51]:
+        - button "Commission" [ref=e52] [cursor=pointer]
+      - listitem [ref=e53]:
+        - button "TOS" [ref=e54] [cursor=pointer]
+    - paragraph [ref=e55]:
+      - strong [ref=e56]: Emotes
+    - list [ref=e60]:
+      - listitem [ref=e61]:
+        - paragraph [ref=e62]:
+          - strong [ref=e63]: "Per Emote: $30"
+      - listitem [ref=e64]:
+        - paragraph [ref=e65]:
+          - strong [ref=e66]: "Set of Three: $75"
+      - listitem [ref=e67]:
+        - paragraph [ref=e68]:
+          - strong [ref=e69]: "Set of Five: $125"
+    - paragraph [ref=e70]:
+      - strong [ref=e71]: Animated Emotes
+    - paragraph [ref=e74]: "*Animated emotes have a base price, but can vary depending on how complex you want it animated. additional charges may apply *"
+    - separator [ref=e75]
+    - paragraph [ref=e76]:
+      - strong [ref=e77]: Base Price
+    - list [ref=e81]:
+      - listitem [ref=e82]:
+        - paragraph [ref=e83]:
+          - strong [ref=e84]: "Per Emote: $50"
+    - separator [ref=e85]
+    - paragraph [ref=e86]:
+      - strong [ref=e87]: Additional Charges
+    - list [ref=e90]:
+      - listitem [ref=e91]:
+        - img "4-5 Complexity" [ref=e94]
+        - paragraph [ref=e96]: 4-5 Complexity
+      - listitem [ref=e97]:
+        - img "6-7 Complexity" [ref=e100]
+        - paragraph [ref=e102]: 6-7 Complexity
+      - listitem [ref=e103]:
+        - img "8-9 Complexity" [ref=e106]
+        - paragraph [ref=e108]: 8-9 Complexity
+    - paragraph [ref=e109]: "** complex Moving Parts**"
+    - list [ref=e111]:
+      - listitem [ref=e112]:
+        - paragraph [ref=e113]:
+          - strong [ref=e114]: "4-5: +$10"
+      - listitem [ref=e115]:
+        - paragraph [ref=e116]:
+          - strong [ref=e117]: "6-7: +$15"
+      - listitem [ref=e118]:
+        - paragraph [ref=e119]:
+          - strong [ref=e120]: "8-9: +$20"
+    - separator [ref=e121]
+    - list [ref=e122]:
+      - listitem [ref=e123]:
+        - button "Twitter" [ref=e124] [cursor=pointer]:
+          - img "Twitter"
+      - listitem [ref=e125]:
+        - button "Twitch" [ref=e126] [cursor=pointer]:
+          - img "Twitch"

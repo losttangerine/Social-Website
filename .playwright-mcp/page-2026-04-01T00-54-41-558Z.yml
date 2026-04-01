@@ -1,0 +1,25 @@
+- generic [ref=e4]:
+  - banner
+  - generic [ref=e26]:
+    - list [ref=e27]:
+      - listitem [ref=e28]:
+        - button "Home" [ref=e29] [cursor=pointer]
+      - listitem [ref=e30]:
+        - button "Commission" [ref=e31] [cursor=pointer]
+      - listitem [ref=e32]:
+        - button "TOS" [ref=e33] [cursor=pointer]
+    - heading "available commissions" [level=2] [ref=e34]:
+      - strong [ref=e35]: available commissions
+    - list [ref=e36]:
+      - listitem [ref=e37]:
+        - button "Emotes" [ref=e38] [cursor=pointer]
+      - listitem [ref=e39]:
+        - button "Character" [ref=e40] [cursor=pointer]
+    - separator [ref=e41]
+    - list [ref=e42]:
+      - listitem [ref=e43]:
+        - button "Twitch" [ref=e44] [cursor=pointer]:
+          - img "Twitch"
+      - listitem [ref=e45]:
+        - button "Twitter" [ref=e46] [cursor=pointer]:
+          - img "Twitter"
