@@ -7,7 +7,7 @@
   --font-body: var(--font-manrope), system-ui, sans-serif;
 
   /* ── New warm colour system ─────────────────────── */
-  --color-primary:                  #964300;
+  --color-primary:                  #ea580c;
   --color-primary-fixed:            #f9873e;
   --color-primary-container:        #f9873e;
   --color-primary-dim:              #843a00;
@@ -31,7 +31,7 @@
   /* ── Legacy aliases (ArtworkGallery / AnimationGallery keep working) ── */
   --color-surface-raised:           #e8e8e5;
   --color-surface-border:           #adadab;
-  --color-accent:                   #964300;
+  --color-accent:                   #ea580c;
   --color-accent-hover:             #e97b32;
 
   /* ── Animation ─────────────────────────────────── */

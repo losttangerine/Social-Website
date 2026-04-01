@@ -35,7 +35,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link
           href="/"
-          className="font-headline font-bold text-lg tracking-tight text-orange-950 hover:text-primary transition-colors"
+          className="font-headline font-bold text-lg tracking-tight text-primary hover:text-primary-fixed transition-colors"
         >
           Lost Tangerine
         </Link>
